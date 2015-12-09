@@ -25,11 +25,11 @@ import os
 # Import alabaster theme
 # import alabaster
 
-sys.path.insert(0, os.path.abspath('../../'))
-import sphinx_bootstrap_theme
+# sys.path.insert(0, os.path.abspath('../../'))
+# import sphinx_bootstrap_theme
 
 html_theme = 'bootstrap'
-html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+
 
 
 
@@ -243,7 +243,7 @@ pygments_style = 'sphinx'
 # html_theme = 'default'
 
 # html_theme = "sphinx_rtd_theme"
-# html_theme_path = ["_themes", ]
+html_theme_path = ["_themes", ]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
