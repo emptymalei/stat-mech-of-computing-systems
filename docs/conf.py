@@ -24,6 +24,8 @@ import os
 
 # Import alabaster theme
 # import alabaster
+
+sys.path.insert(0, os.path.abspath('../../'))
 import sphinx_bootstrap_theme
 
 html_theme = 'bootstrap'
@@ -59,7 +61,7 @@ html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 
 # (Optional) Logo. Should be small enough to fit the navbar (ideally 24x24).
 # Path should be relative to the ``_static`` files directory.
-html_logo = "my_logo.png"
+# html_logo = "my_logo.png"
 
 # Theme options are theme-specific and customize the look and feel of a
 # theme further.
