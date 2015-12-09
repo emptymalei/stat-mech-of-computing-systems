@@ -1,2 +1,2 @@
+sphinx_bootstrap_theme==0.4.8
 alabaster==0.7.6
-sphinx_bootstrap_theme
